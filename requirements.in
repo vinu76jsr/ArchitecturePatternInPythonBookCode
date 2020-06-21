@@ -1,9 +1,20 @@
-ipython
-duckduckgo3
-pytest
-interrogate
-pytest-sugar
+# app
 sqlalchemy
 flask
 psycopg2-binary
+
+# aux
+duckduckgo3
+
+# dev
+ipython
+ipdb
+html2text
+
+# tests
+pytest
+pytest-icdiff
+mypy
 requests
+pytest-sugar
+interrogate
