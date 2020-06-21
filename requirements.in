@@ -5,3 +5,5 @@ interrogate
 pytest-sugar
 sqlalchemy
 flask
+psycopg2-binary
+requests
