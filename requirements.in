@@ -2,6 +2,8 @@
 sqlalchemy
 flask
 psycopg2-binary
+redis
+tenacity
 
 # aux
 duckduckgo3
@@ -10,6 +12,7 @@ duckduckgo3
 ipython
 ipdb
 html2text
+pylint
 
 # tests
 pytest
