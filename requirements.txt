@@ -4,65 +4,145 @@
 #
 #    pip-compile requirements.in
 #
-appnope==0.1.0            # via ipython
-astroid==2.4.2            # via pylint
-attrs==19.3.0             # via interrogate, pytest
-backcall==0.2.0           # via ipython
-certifi==2020.6.20        # via requests
-chardet==3.0.4            # via requests
-click==7.1.2              # via flask, interrogate
-colorama==0.4.3           # via interrogate
-decorator==4.4.2          # via ipython, traitlets
-duckduckgo3==0.242        # via -r requirements.in
-flask==1.1.2              # via -r requirements.in
-html2text==2020.1.16      # via -r requirements.in
-icdiff==1.9.1             # via pytest-icdiff
-idna==2.9                 # via requests
-interrogate==1.2.0        # via -r requirements.in
-ipdb==0.13.2              # via -r requirements.in
-ipython-genutils==0.2.0   # via traitlets
-ipython==7.15.0           # via -r requirements.in, ipdb
-isort==4.3.21             # via pylint
-itsdangerous==1.1.0       # via flask
-jedi==0.17.1              # via ipython
-jinja2==2.11.2            # via flask
-lazy-object-proxy==1.4.3  # via astroid
-markupsafe==1.1.1         # via jinja2
-mccabe==0.6.1             # via pylint
-more-itertools==8.4.0     # via pytest
-mypy-extensions==0.4.3    # via mypy
-mypy==0.781               # via -r requirements.in
-packaging==20.4           # via pytest, pytest-sugar
-parso==0.7.0              # via jedi
-pexpect==4.8.0            # via ipython
-pickleshare==0.7.5        # via ipython
-pluggy==0.13.1            # via pytest
-pprintpp==0.4.0           # via pytest-icdiff
-prompt-toolkit==3.0.5     # via ipython
-psycopg2-binary==2.8.5    # via -r requirements.in
-ptyprocess==0.6.0         # via pexpect
-py==1.8.2                 # via interrogate, pytest
-pygments==2.6.1           # via ipython
-pylint==2.5.3             # via -r requirements.in
-pyparsing==2.4.7          # via packaging
-pytest-icdiff==0.5        # via -r requirements.in
-pytest-sugar==0.9.3       # via -r requirements.in
-pytest==5.4.3             # via -r requirements.in, pytest-icdiff, pytest-sugar
-redis==3.5.3              # via -r requirements.in
-requests==2.24.0          # via -r requirements.in
-six==1.15.0               # via astroid, packaging, tenacity, traitlets
-sqlalchemy==1.3.17        # via -r requirements.in
-tabulate==0.8.7           # via interrogate
-tenacity==6.2.0           # via -r requirements.in
-termcolor==1.1.0          # via pytest-sugar
-toml==0.10.1              # via interrogate, pylint
-traitlets==4.3.3          # via ipython
-typed-ast==1.4.1          # via mypy
-typing-extensions==3.7.4.2  # via mypy
-urllib3==1.25.9           # via requests
-wcwidth==0.2.4            # via prompt-toolkit, pytest
-werkzeug==1.0.1           # via flask
-wrapt==1.12.1             # via astroid
+astroid==2.4.2
+    # via pylint
+attrs==19.3.0
+    # via
+    #   interrogate
+    #   pytest
+backcall==0.2.0
+    # via ipython
+certifi==2020.6.20
+    # via requests
+chardet==3.0.4
+    # via requests
+click==7.1.2
+    # via
+    #   flask
+    #   interrogate
+colorama==0.4.3
+    # via interrogate
+decorator==4.4.2
+    # via
+    #   ipython
+    #   traitlets
+duckduckgo3==0.242
+    # via -r requirements.in
+flask==1.1.2
+    # via -r requirements.in
+html2text==2020.1.16
+    # via -r requirements.in
+icdiff==1.9.1
+    # via pytest-icdiff
+idna==2.9
+    # via requests
+interrogate==1.2.0
+    # via -r requirements.in
+ipdb==0.13.2
+    # via -r requirements.in
+ipython-genutils==0.2.0
+    # via traitlets
+ipython==7.15.0
+    # via
+    #   -r requirements.in
+    #   ipdb
+isort==4.3.21
+    # via pylint
+itsdangerous==1.1.0
+    # via flask
+jedi==0.17.1
+    # via ipython
+jinja2==2.11.2
+    # via flask
+lazy-object-proxy==1.4.3
+    # via astroid
+markupsafe==1.1.1
+    # via jinja2
+mccabe==0.6.1
+    # via pylint
+more-itertools==8.4.0
+    # via pytest
+mypy-extensions==0.4.3
+    # via mypy
+mypy==0.781
+    # via -r requirements.in
+packaging==20.4
+    # via
+    #   pytest
+    #   pytest-sugar
+parso==0.7.0
+    # via jedi
+pexpect==4.8.0
+    # via ipython
+pickleshare==0.7.5
+    # via ipython
+pluggy==0.13.1
+    # via pytest
+pprintpp==0.4.0
+    # via pytest-icdiff
+prompt-toolkit==3.0.5
+    # via ipython
+psycopg2-binary==2.8.5
+    # via -r requirements.in
+ptyprocess==0.6.0
+    # via pexpect
+py==1.10.0
+    # via
+    #   interrogate
+    #   pytest
+pygments==2.6.1
+    # via ipython
+pylint==2.5.3
+    # via -r requirements.in
+pyparsing==2.4.7
+    # via packaging
+pytest-icdiff==0.5
+    # via -r requirements.in
+pytest-sugar==0.9.3
+    # via -r requirements.in
+pytest==5.4.3
+    # via
+    #   -r requirements.in
+    #   pytest-icdiff
+    #   pytest-sugar
+redis==3.5.3
+    # via -r requirements.in
+requests==2.24.0
+    # via -r requirements.in
+six==1.15.0
+    # via
+    #   astroid
+    #   packaging
+    #   tenacity
+    #   traitlets
+sqlalchemy==1.3.17
+    # via -r requirements.in
+tabulate==0.8.7
+    # via interrogate
+tenacity==6.2.0
+    # via -r requirements.in
+termcolor==1.1.0
+    # via pytest-sugar
+toml==0.10.1
+    # via
+    #   interrogate
+    #   pylint
+traitlets==4.3.3
+    # via ipython
+typed-ast==1.4.1
+    # via mypy
+typing-extensions==3.7.4.2
+    # via mypy
+urllib3==1.25.9
+    # via requests
+wcwidth==0.2.4
+    # via
+    #   prompt-toolkit
+    #   pytest
+werkzeug==1.0.1
+    # via flask
+wrapt==1.12.1
+    # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
